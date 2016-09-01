@@ -1,0 +1,14 @@
+CACHE MANIFEST
+
+CACHE:
+/static/a.js
+
+
+
+NETWORK:
+
+
+FALLBACK:
+#访问缓存失败后，备用访问的资源，第一个是访问源，第二个是替换文件*.html /offline.html FALLBACK中的资源必须和manifest文件同源。
+/views/indedx.html /views/a.html
+/static/s.jpg /static/abc.jpg
